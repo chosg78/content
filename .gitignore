@@ -48,3 +48,5 @@ Packs/**/__init__.py
 /coverage_report
 .coverage
 .demisto-sdk-report
+demisto_venv
+

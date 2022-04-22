@@ -1029,7 +1029,7 @@ def searchIndicators(fromDate='', query='', size=100, page=0, toDate='', value='
     searchAfter after the demisto.executeCommand.
     When you run a search for the query type:IP, the return value includes searchAfter
     ```
-    >>> demisto.executeCommand(searchIndicators, "query": 'type:IP', "size" :1000})
+     demisto.executeCommand(searchIndicators, "query": 'type:IP', "size" :1000})
     {
         "iocs": [],
         "searchAfter": [1596106239679, dd7aa6abfcb3adf793922618005b2ad5],
